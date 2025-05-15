@@ -2,10 +2,11 @@ import { Layout } from './../layouts/Layout';
 import { Home } from './../pages/Home';
 import { About } from './../pages/About';
 import { NotFound } from './../pages/NotFound';
-import { Osaka } from './../pages/Osaka';
-import { Nagoya } from './../pages/Nagoya';
-import { Hokkaido } from './../pages/Hokkaido';
 import { Tokyo } from './../pages/Tokyo';
+import { Osaka } from './../pages/Osaka';
+import { Hokkaido } from './../pages/Hokkaido';
+import { Nagoya } from './../pages/Nagoya';
+import { London } from './../pages/London';
 import { Search } from './../pages/Search';
 
 export const routeData = [
@@ -22,20 +23,24 @@ export const routeData = [
         element: <About />,
       },
       {
-        path: 'osaka',
-        element: <Osaka />,
+        path: 'tokyo',
+        element: <Tokyo />,
       },
       {
-        path: 'nagoya',
-        element: <Nagoya />,
+        path: 'osaka',
+        element: <Osaka />,
       },
       {
         path: 'hokkaido',
         element: <Hokkaido />,
       },
       {
-        path: 'tokyo',
-        element: <Tokyo />,
+        path: 'nagoya',
+        element: <Nagoya />,
+      },
+      {
+        path: 'london',
+        element: <London />,
       },
       {
         path: 'search',
