@@ -11,7 +11,7 @@ export const About = () => (
         お天気情報を提供します
       </Typography>
       <Box>
-        <li>東京の天気</li>
+        <li>沖縄の天気</li>
         <li>その他地域の天気</li>
         <li>検索します</li>
       </Box>
